@@ -11,6 +11,10 @@
 		012E184726F672A800499A6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E184626F672A800499A6C /* ContentView.swift */; };
 		012E184926F672A900499A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012E184826F672A900499A6C /* Assets.xcassets */; };
 		012E184C26F672A900499A6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012E184B26F672A900499A6C /* Preview Assets.xcassets */; };
+		012E185726F6755700499A6C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E185626F6755700499A6C /* Color.swift */; };
+		012E185926F675BD00499A6C /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E185826F675BD00499A6C /* Style.swift */; };
+		012E185B26F675EA00499A6C /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E185A26F675EA00499A6C /* Size.swift */; };
+		012E185D26F6761D00499A6C /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E185C26F6761D00499A6C /* CustomButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		012E184826F672A900499A6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		012E184B26F672A900499A6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		012E184D26F672A900499A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012E185626F6755700499A6C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		012E185826F675BD00499A6C /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		012E185A26F675EA00499A6C /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		012E185C26F6761D00499A6C /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,9 @@
 		012E184326F672A800499A6C /* SwiftUIButtons */ = {
 			isa = PBXGroup;
 			children = (
-				012E184426F672A800499A6C /* SwiftUIButtonsApp.swift */,
+				012E185526F6753C00499A6C /* ButtonUtils */,
 				012E184626F672A800499A6C /* ContentView.swift */,
+				012E184426F672A800499A6C /* SwiftUIButtonsApp.swift */,
 				012E184826F672A900499A6C /* Assets.xcassets */,
 				012E184D26F672A900499A6C /* Info.plist */,
 				012E184A26F672A900499A6C /* Preview Content */,
@@ -67,6 +76,17 @@
 				012E184B26F672A900499A6C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		012E185526F6753C00499A6C /* ButtonUtils */ = {
+			isa = PBXGroup;
+			children = (
+				012E185626F6755700499A6C /* Color.swift */,
+				012E185826F675BD00499A6C /* Style.swift */,
+				012E185A26F675EA00499A6C /* Size.swift */,
+				012E185C26F6761D00499A6C /* CustomButtonStyle.swift */,
+			);
+			path = ButtonUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				012E184726F672A800499A6C /* ContentView.swift in Sources */,
+				012E185726F6755700499A6C /* Color.swift in Sources */,
 				012E184526F672A800499A6C /* SwiftUIButtonsApp.swift in Sources */,
+				012E185B26F675EA00499A6C /* Size.swift in Sources */,
+				012E185D26F6761D00499A6C /* CustomButtonStyle.swift in Sources */,
+				012E185926F675BD00499A6C /* Style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
